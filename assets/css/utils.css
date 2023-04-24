@@ -1,0 +1,40 @@
+:root {
+    --color-primary: #000;
+    --color-secondary: #44566C;
+
+    --font-family-primary: 'Poppins', sans-serif;
+    --font-family-secondary: 'Roboto Slab', serif;
+    --font-primary: 16px;
+}
+
+body {
+    font-family: var(--font-family-primary);
+    font-size: var(--font-primary);
+    color: var(--color-primary);
+    font-weight: 400;
+    line-height: 28px;
+}
+
+h1 {
+    margin-top: 0;
+    font-family: var(--font-family-secondary);
+    font-size: 40px;
+}
+
+p {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    box-sizing: border-box;
+    max-width: 1320px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+

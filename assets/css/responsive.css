@@ -1,0 +1,150 @@
+@media screen and (max-width: 1200px) {
+    .wrapper {
+        margin: unset;
+        display: block;
+    }
+
+    .container {
+        padding: 15px;
+    }
+
+    .sidebar {
+        max-width: 100%;
+    }
+
+    .avatar {
+        top: 150px;
+        left: 180px
+    }
+
+    .profile__name {
+        display: unset;
+        margin-top: 60px;
+        margin-left: 10px;
+    }
+
+    .profile__title {
+        background-color: unset;
+        margin: 20px 0 0 -120px;
+    }
+
+    .social {
+        background-color: unset;
+        margin: 20px 0 0 -120px;
+    }
+
+    .info {
+        background-color: unset;
+        margin: 0 0 0 330px;
+
+    }
+
+    .navbar {
+        flex-direction: column;
+        right: unset;
+        left: -168px;
+        transition: 0.5s ease-in-out;
+        box-shadow: 5px 5px 5px rgb(190, 190, 190);
+    }
+
+    .navbar:hover {
+        left: -15px;
+    }
+
+    .icon--tabs {
+        margin-right: unset;
+        margin-bottom: 30px;
+    }
+
+    .icon--tabs:last-child {
+        margin-bottom: 0;
+    }
+
+    .main {
+        margin-top: 30px;
+        margin-left: 0;
+    }
+
+
+    @media screen and (max-width:767px){
+        .wrapper{
+                margin: unset;
+        }
+        .sidebar{
+                justify-content: center;
+                align-items:center;
+                min-width: unset;
+                max-height: unset;
+        }
+        .avatar{            
+                display: contents;
+                margin-top: 120px;
+                position: unset;
+                top: unset;
+                left: unset;
+        }
+        .profile__name{
+                margin-top: 30px;
+                margin-left: unset;
+        }
+        .profile__title{
+                margin: unset;
+        }
+        .social{
+                margin-left: unset;
+        }   
+        .info{
+                width:auto;
+                margin-top: 10px;
+                margin-bottom: 30px;
+                margin-left: unset;
+        } 
+        .info__group{
+                width: 100%;
+        }
+        .btn__download{
+                margin: unset;
+                margin-bottom: 40px;
+                align-self: center;
+        }     
+        .navbar{
+                min-width: unset;
+        }    
+       
+        .wrapper__content{
+                width: 30%;
+                height: 100%;
+        }
+        .skills{
+                flex-direction: column;
+                padding:30px;
+        }  
+        .skills__format{
+                width: 100%;
+                margin-bottom: 30px;
+        }
+        .edu__exp{
+                flex-direction: column;
+                padding: 30px;
+        }
+        .edu__exp--format{
+                width: 100%;
+                margin-bottom: 30px;                
+        }
+        .edu__exp--format:last-child{
+                margin-bottom: 0;
+        }
+        .no__wrapper{
+                padding-bottom: unset;
+        }
+        .brand__group{
+                flex-wrap: wrap;
+        }
+     
+        .no__wrapper h2 {
+                padding-top: unset;
+                padding-bottom: unset;
+                font-size: 18px;
+        }
+}
+}
